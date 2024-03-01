@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Domma"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-01 08:30:32 "/>
+        <attribute name="created" value="RG9tbWE7REFOSUVMTEFXRFJJQ0s7MjAyNC0wMy0wMTsiMDc6Mzc6MzMgIjsyNzA2"/>
+        <attribute name="edited" value="RG9tbWE7REFOSUVMTEFXRFJJQ0s7MjAyNC0wMy0wMTsiMDg6MzA6MzIgIjsxOzI4MDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tempo, aceleracao, distancia, velocidade" type="Real" array="False" size=""/>
+            <input variable="tempo"/>
+            <assign variable="velocidade" expression="9.8* tempo"/>
+            <assign variable="distancia" expression="velocidade* tempo"/>
+            <output expression="distancia * 100" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
