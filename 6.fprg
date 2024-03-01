@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Domma"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-26 08:58:59 "/>
+        <attribute name="created" value="RG9tbWE7REFOSUVMTEFXRFJJQ0s7MjAyNC0wMi0yNjsiMDg6NTA6NDIgIjsyNzA4"/>
+        <attribute name="edited" value="RG9tbWE7REFOSUVMTEFXRFJJQ0s7MjAyNC0wMi0yNjsiMDg6NTg6NTkgIjsxOzI4MzI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor1, valor2, resultado" type="Integer" array="False" size=""/>
+            <output expression="&quot;informe o valor1:&quot;" newline="True"/>
+            <input variable="valor1"/>
+            <output expression="&quot;informe valor2:&quot;" newline="True"/>
+            <input variable="valor2"/>
+            <assign variable="resultado" expression="valor1/ valor2"/>
+            <output expression="&quot;O resultado &#233;: &quot; &amp; resultado" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
