@@ -1,0 +1,26 @@
+TERMOS EM INGLES
+
+OPERADORES ARITMÉDICOS
++,-,*,/
+
+OPERADORES LÓGICOS
+e = and
+ou= or
+não= not
+
+expressão A
+expressão B
+
+A
+verdadeiro
+falso
+
+B
+verdadeiro
+falso
+
+A | B | A and B
+F | F | falso
+F | V | falso
+V | F |falso
+V | V | verdadeiro
