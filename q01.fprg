@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Domma"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-15 08:04:54 "/>
+        <attribute name="created" value="RG9tbWE7REFOSUVMTEFXRFJJQ0s7MjAyNC0wMy0xNTsiMDc6NTI6NDkgIjsyNzE1"/>
+        <attribute name="edited" value="RG9tbWE7REFOSUVMTEFXRFJJQ0s7MjAyNC0wMy0xNTsiMDg6MDQ6NTQgIjsxOzI4MTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, j" type="Integer" array="False" size=""/>
+            <for variable="i" start="1" end="10" direction="inc" step="1">
+                <output expression="i" newline="True"/>
+            </for>
+            <assign variable="j" expression="1"/>
+            <while expression="j&lt;= 10">
+                <output expression="j" newline="True"/>
+                <assign variable="j" expression="j+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

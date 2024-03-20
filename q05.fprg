@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Domma"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-15 09:44:31 "/>
+        <attribute name="created" value="RG9tbWE7REFOSUVMTEFXRFJJQ0s7MjAyNC0wMy0xNTsiMDk6MjQ6NTQgIjsyNzEy"/>
+        <attribute name="edited" value="RG9tbWE7REFOSUVMTEFXRFJJQ0s7MjAyNC0wMy0xNTsiMDk6NDQ6MzEgIjsyOzI4MTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, j, resto3, resto5" type="Integer" array="False" size=""/>
+            <for variable="i" start="1" end="100" direction="inc" step="1">
+                <assign variable="resto3" expression="i % 3"/>
+                <assign variable="resto5" expression="i % 5"/>
+                <if expression="resto3= 0 or resto5= 0">
+                    <then>
+                        <if expression="resto3= 0 and resto5=0">
+                            <then>
+                                <comment text="se for divisivel pelos 2, escreve &quot;fizz buzz&quot;"/>
+                                <output expression="&quot;fizz buzz&quot;" newline="True"/>
+                            </then>
+                            <else/>
+                        </if>
+                        <if expression="resto3= 0">
+                            <then>
+                                <output expression="&quot;Fizz&quot;" newline="True"/>
+                            </then>
+                            <else>
+                                <comment text="se  nao for por 3, vai tentar por 5"/>
+                                <if expression="resto5= 0">
+                                    <then>
+                                        <output expression="&quot;buzz&quot;" newline="True"/>
+                                    </then>
+                                    <else/>
+                                </if>
+                            </else>
+                        </if>
+                    </then>
+                    <else>
+                        <comment text="se n&#227;o for divisivel por um pelo outro, so repete o algarismo."/>
+                        <output expression="i" newline="True"/>
+                    </else>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
