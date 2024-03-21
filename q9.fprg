@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Domma"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-21 11:22:11 "/>
+        <attribute name="created" value="RG9tbWE7REFOSUVMTEFXRFJJQ0s7MjAyNC0wMy0yMTsiMTE6MTM6MzQgIjsyNjk4"/>
+        <attribute name="edited" value="RG9tbWE7REFOSUVMTEFXRFJJQ0s7MjAyNC0wMy0yMTsiMTE6MjI6MTEgIjsxOzI4MDE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor1, valor2, x" type="Integer" array="False" size=""/>
+            <input variable="valor1"/>
+            <input variable="valor2"/>
+            <assign variable="x" expression="valor1/valor2 + 0.5"/>
+            <output expression="&quot;resultado: &quot; &amp; x" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

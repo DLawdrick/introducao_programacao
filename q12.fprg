@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Domma"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-21 11:46:26 "/>
+        <attribute name="created" value="RG9tbWE7REFOSUVMTEFXRFJJQ0s7MjAyNC0wMy0yMTsiMTE6MzU6MDMgIjsyNjk4"/>
+        <attribute name="edited" value="RG9tbWE7REFOSUVMTEFXRFJJQ0s7MjAyNC0wMy0yMTsiMTE6NDY6MjYgIjsxOzI4MTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, x" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <assign variable="x" expression="a^(1/2)"/>
+            <output expression="&quot;a raiz de &quot; &amp; a &amp; &quot; &#233;: &quot; &amp; x" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

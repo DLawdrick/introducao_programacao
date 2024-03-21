@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Domma"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-21 10:29:08 "/>
+        <attribute name="created" value="RG9tbWE7REFOSUVMTEFXRFJJQ0s7MjAyNC0wMy0yMTsiMTA6MTQ6NTEgIjsyNjk3"/>
+        <attribute name="edited" value="RG9tbWE7REFOSUVMTEFXRFJJQ0s7MjAyNC0wMy0yMTsiMTA6Mjk6MDggIjsxOzI4MTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="anguloGrau, anguloRad" type="Real" array="False" size=""/>
+            <output expression="&quot;escreva o angulo (em Graus):&quot;" newline="True"/>
+            <input variable="anguloGrau"/>
+            <assign variable="anguloRad" expression="anguloGrau * pi /180"/>
+            <output expression="&quot;o cosseno &#233;: &quot; &amp; cos(anguloRad)" newline="True"/>
+            <output expression="&quot;o seno &#233;: &quot; &amp; sin(anguloRad)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

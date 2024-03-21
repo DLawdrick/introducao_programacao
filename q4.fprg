@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Domma"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-21 10:04:22 "/>
+        <attribute name="created" value="RG9tbWE7REFOSUVMTEFXRFJJQ0s7MjAyNC0wMy0yMTsiMDk6NDk6MTggIjsyNzE2"/>
+        <attribute name="edited" value="RG9tbWE7REFOSUVMTEFXRFJJQ0s7MjAyNC0wMy0yMTsiMTA6MDQ6MjIgIjsyOzI4MDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="media, nota1, nota2, nota3" type="Real" array="False" size=""/>
+            <declare name="aluno" type="String" array="False" size=""/>
+            <output expression="&quot;digite o nome do aluno:&quot;" newline="True"/>
+            <input variable="aluno"/>
+            <output expression="&quot;nota1:&quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;nota2:&quot;" newline="True"/>
+            <input variable="nota2"/>
+            <output expression="&quot;nota 3:&quot;" newline="True"/>
+            <input variable="nota3"/>
+            <assign variable="media" expression="3/(1/nota1 + 1/nota2 + 1/nota3)"/>
+            <output expression="&quot;a media harmonica de &quot; &amp; aluno   &amp;  &quot; &#233;: &quot;   &amp;   media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
