@@ -1,23 +1,33 @@
-#include <iostream>
-#include <clocale>
-
+#include<iostream>
 using namespace std;
 
 int main(){
-	setlocale(LC_ALL, "portuguese");
-	int num;
 	
-	cout<< endl << " Insira o número: ";
-	cin>> num;
-	
-	if(num>0){
-	cout<< "Este número é positivo";	
-	} else if(num==0){
-	cout<< "Este número é neutro";	
-	} else{
-	cout<< "Este número é negativo";	
-	}
+int dados [] = {-1,5,9,-78,54};
+for(int i=0 ; i < 5 ; i++){
+	cout<< dados[i] << endl;
+} 
+for(int i=0 ; i < 5 ; i++){
+if(dados[i]<0){
+dados[i]=0;
+	cout<< endl ;
 
+}	
+}
+
+for(int i=0 ; i < 5 ; i++){
+	cout<< dados[i] << endl;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	return 0;
 }
